@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Segunda Aula HTML </h1>
+    <p> apaga por favor tenho depressão, ansiedade, pânico, pressão alta, pressão baixa, hpv, hiv, dengue, zika, chicungunha, peste negra, poliomielite, paralisia infantil, osteoporose, gripe suína, febre amarela, meningite, gonorreia, herpes, faringite, doença de chagas, bronquite, leptospirose, cancro, sarampo, catapora, varíola, caxumba, gastrite, tétano, hepatite, conjuntivite, derrame cerebral, coqueluche, labirintite, sarna, leucemia, raiva, cirrose, escoliose, microcefalia, anencefalia, ebola, unha encravada, autismo, síndrome de asperger, arritmia, pneumonia, diabetes, insuficiencia cardiaca, nanismo, gigantismo, síndrome de down, asma, cancer de fígado, cancer de esofago, cancer cerebral, cancer de estomago, cancer de pele, lepra, hernia de disco, trombose, elefantíase, calcanhar de maracujá, fimose, cancer de próstata, cancer de testículos, mal de parkinson, dor de cabeça, má formação dos ovários, bicho de pé, bicho geográfico, teníase e candidíase</p>
+    <h2> cadastro de clinica mental</h2>
+    <p> preencha o formulário abaixo para se cadastrar em nossa clinica</p>
+    <form action="cadastro.html" method="get">
+        <fieldset>
+            <legend>cadastro</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome aqui" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Seu email aqui" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+            
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" name="Nascimento" id="Nascimento" required>
+
+            <label for="genero">Genero:</label>
+            <select name="genero" id="genero" required>
+                <option value="">Selecione seu genero</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+                <option value="nao dizer">Prefiro Não dizer</option>
+            </select>
+
+            <button type ="submit">Increver-se</button>
+        </fieldset>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(70, 197, 240);
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 126px;
+    border: 1px solid black;
+}
+
+label, input, select, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
