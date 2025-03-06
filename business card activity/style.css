@@ -1,8 +1,60 @@
-.quadrado{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-color: red;
-    border: 1px solid;
-    margin-left: 400px;
+.cartao{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    border: 1px double black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPbZqOrE8Eb7I0xt0UvNXbjwfNK9A3lWrCw&s);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: rgb(184, 184, 184);
+}
+.subtitulo{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+h6{
+    color: white;
+    position: absolute;
+    font-size: 8px;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+}
+.dados{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-top: 30px;
+    color: grey;
+}
+i{
+    color: aquamarine;
+}
+.copyright{
+    color: white;
+}
+.nome{
+    margin-left: 235px;
+    position: absolute;
+    top: 0;
+}
+span{
+    color: chartreuse;
 }
