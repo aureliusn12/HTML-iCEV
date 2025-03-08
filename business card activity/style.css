@@ -2,7 +2,6 @@
     width: 500px;
     height: 250px;
     position: relative;
-    border: 1px double black;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPbZqOrE8Eb7I0xt0UvNXbjwfNK9A3lWrCw&s);
     background-position: center;
     background-size: contain;
@@ -57,4 +56,7 @@ i{
 }
 span{
     color: chartreuse;
+}
+a{
+    color:grey;
 }
