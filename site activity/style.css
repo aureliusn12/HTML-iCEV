@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;      
+    height: 10vh;
+    
+}
+body{
+    background-color: cornflowerblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.newsList{
+    display: flex;
+}
