@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="">
+    <link rel="stylesheet" href="style.css">
+   <!-- <title>Document</title> -->
+</head>
+<body>
+    <h1>Principais Seletores CSS</h1>
+    <p id="exemplo">Bem vindos a aula</p>
+    <input type="password" name="senha" oninput="mostrarsenha()">
+    <input type="text" name="confirma" oninput="confirmasenha()">
+    <p id="texto">Senhas</p>
+</body>
+<script>
+    const senha = document.querySelector("input[name=senha]");
+    const confirma = document.querySelector("input[name=confirma]");
+    const texto = document.getElementById("texto");
+
+    function mostrarsenha(){
+        console.log(senha.value);
+    }
+
+    function confirmasenha(){
+        if(senha.value === confirma.value){
+            texto.style.color = "green"
+            texto.textContent = "As senhas são iguais";
+        } else{
+            texto.style.color = "red"
+            texto.textContent = "As senhas sâo diferentes";
+        }
+    }
+
+</script>
+</html>
