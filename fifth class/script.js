@@ -1,0 +1,47 @@
+const data = [
+        { nome: "Alexandre Cavalcante", idade: 42, cargo: "Engenheiro de Software", salario: "R$ 12.598" },
+        { nome: "Álvaro Santos", idade: 36, cargo: "Desenvolvedor Backend", salario: "R$ 9.743" },
+        { nome: "Antonio Pereira", idade: 31, cargo: "DevOps Engineer", salario: "R$ 13.217" },
+        { nome: "Antonio Santos", idade: 28, cargo: "Engenheiro de Qualidade", salario: "R$ 7.654" },
+        { nome: "Arthur Godinho", idade: 34, cargo: "Desenvolvedor Frontend", salario: "R$ 8.512" },
+        { nome: "Aurelius Brito", idade: 39, cargo: "Arquiteto de Software", salario: "R$ 15.342" },
+        { nome: "Bruno Marques", idade: 29, cargo: "Engenheiro de Dados", salario: "R$ 10.475" },
+        { nome: "Carlos Matos", idade: 33, cargo: "Engenheiro de Machine Learning", salario: "R$ 14.010" },
+        { nome: "Cezar Mendes", idade: 40, cargo: "Desenvolvedor Fullstack", salario: "R$ 11.350" },
+        { nome: "Davi Vieira", idade: 27, cargo: "Product Owner", salario: "R$ 7.981" },
+        { nome: "Deyvidy Alves", idade: 30, cargo: "Desenvolvedor Mobile", salario: "R$ 9.688" },
+        { nome: "Elias Neto", idade: 45, cargo: "Scrum Master", salario: "R$ 10.822" },
+        { nome: "Erasmo Pereira", idade: 38, cargo: "Tech Lead", salario: "R$ 13.734" },
+        { nome: "Felipe Cardoso", idade: 35, cargo: "Desenvolvedor Backend", salario: "R$ 11.690" },
+        { nome: "Francisco Junior", idade: 31, cargo: "Engenheiro de Software", salario: "R$ 12.499" },
+        { nome: "Isaac Pontes", idade: 32, cargo: "Desenvolvedor Frontend", salario: "R$ 9.321" },
+        { nome: "Jeanderson Escobar", idade: 29, cargo: "Engenheiro de Dados", salario: "R$ 10.237" },
+        { nome: "Jeffry Silva", idade: 41, cargo: "DevOps Engineer", salario: "R$ 12.890" },
+        { nome: "João Almeida", idade: 26, cargo: "Estagiário de Desenvolvimento", salario: "R$ 4.523" },
+        { nome: "João Rabelo", idade: 33, cargo: "Product Manager", salario: "R$ 13.479" },
+        { nome: "João Carvalho", idade: 30, cargo: "Desenvolvedor Fullstack", salario: "R$ 10.144" },
+        { nome: "João Silveira", idade: 28, cargo: "Engenheiro de Software", salario: "R$ 9.890" },
+        { nome: "João Carvalho", idade: 36, cargo: "Tech Lead", salario: "R$ 14.223" },
+        { nome: "José Santos", idade: 42, cargo: "Desenvolvedor Backend", salario: "R$ 10.577" },
+        { nome: "José Júnior", idade: 47, cargo: "Arquiteto de Software", salario: "R$ 16.339" },
+        { nome: "Laysa Feitosa", idade: 30, cargo: "Product Owner", salario: "R$ 9.231" },
+        { nome: "Marco Melo", idade: 39, cargo: "Desenvolvedor Fullstack", salario: "R$ 11.998" },
+        { nome: "Marcos Leite", idade: 35, cargo: "Desenvolvedor Backend", salario: "R$ 10.050" },
+        { nome: "Marcus Lima", idade: 33, cargo: "Engenheiro de Machine Learning", salario: "R$ 14.409" },
+        { nome: "Nícolas Carvalho", idade: 31, cargo: "Desenvolvedor Frontend", salario: "R$ 8.644" },
+        { nome: "Paulo Cruz", idade: 44, cargo: "Engenheiro de Software", salario: "R$ 13.911" },
+        { nome: "Pedro Alves", idade: 29, cargo: "Desenvolvedor Mobile", salario: "R$ 9.114" },
+        { nome: "Philip Dantas", idade: 40, cargo: "Scrum Master", salario: "R$ 11.540" },
+        { nome: "Reinaldo Coelho", idade: 37, cargo: "Tech Lead", salario: "R$ 13.687" },
+        { nome: "Renan Sousa", idade: 28, cargo: "Product Owner", salario: "R$ 8.233" },
+        { nome: "Samuel Azevedo", idade: 34, cargo: "DevOps Engineer", salario: "R$ 11.132" },
+        { nome: "Victor Caland", idade: 30, cargo: "Desenvolvedor Backend", salario: "R$ 10.275" },
+        { nome: "Vitor Mousinho", idade: 32, cargo: "Desenvolvedor Fullstack", salario: "R$ 11.049" },
+        { nome: "Warney Filho", idade: 43, cargo: "Engenheiro de Dados", salario: "R$ 12.678" },
+      ];
+
+    const find = data.find((funcionario)=>{
+        return funcionario.idade == 25;
+    })
+
+    console.log(find);
